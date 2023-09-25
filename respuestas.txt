@@ -1,0 +1,7 @@
+Para evitar este problema, necesitamos una forma de asegurarnos de que solo uno de los amigos pueda tomar una hamburguesa a la vez. 
+esto se hace con algo llamado "sincronización", que es como tener una regla que dice "sólo uno de ustedes puede tomar una hamburguesa a la vez". 
+Esto se hace en programación usando cosas como "semáforos" o "mutex".
+
+este problema podría hacer que a veces se muestre el mensaje "SE TERMINARON LAS HAMBURGUESAS" antes de que todas las hamburguesas sean realmente comidas, 
+o que algún hilo intente comer una hamburguesa cuando ya no hay más.
+
